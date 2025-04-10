@@ -66,7 +66,7 @@ $FUSEKI_HOME/fuseki-server -version
 
 ## Load the bio-tools RDF file and the EDAM ontology:
 ```bash
-${FUSEKI_HOME}/fuseki-server --file=../edam_biotools/bioschemas-dump_05_01_2025.ttl --file=../edam_biotools/EDAM_1.25.owl  /biotoolsEdam
+${FUSEKI_HOME}/fuseki-server --file=./edam_biotools/bioschemas-dump_05_01_2025.ttl --file=./edam_biotools/EDAM_1.25.owl  /biotoolsEdam
 ```
 Loading might take a while. When you see something like :  
 `14:15:51 INFO  Server          :: Started 2025/04/08 14:15:51 CEST on port 3030`  your server is ready.
