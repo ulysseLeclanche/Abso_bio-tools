@@ -1,6 +1,6 @@
 # Assessing bioinformatics software annotations: bio.tools case-study 
 
-The article [Assessing bioinformatics software annotations: bio.tools case-study](JOBIM2025_submission_219.pdf) has been submitted to jobim 2025. 
+The article [Assessing bioinformatics software annotations: bio.tools case-study](JOBIM2025_submission_219.pdf) has been submitted to [Jobim 2025 conference](https://jobim2025.labri.fr/). 
 
 This github repository contains the code used in the article to extract metadata from the bio.tools RDF schema, create article figures and calculate tool annotation statistics. 
 
