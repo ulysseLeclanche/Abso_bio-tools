@@ -22,3 +22,13 @@ All the python packages needed to run the notebooks are described in the `enviro
 ```bash
 conda env create --file environment.yml
 ```
+
+## Github repository organization
+
+- The `Dataframes`  folder contains all the data tables in tsv format used to create the figures. 
+
+- The `edam_biotools`  folder contents the metadata file from the bio.tools RDF schema and the version of the edam ontology used. 
+
+- The `Figures` Figures folder have the python notebooks for reproducing each figure in the article. 
+
+- The `Tool_annotations_metrics`  folder includes a notebook for reproducing figure dataframes and calculating information on redundancy or deprecated classes in the edam ontology. 
