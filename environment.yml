@@ -1,0 +1,17 @@
+name: Abso_bio-tools
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python # Use 3.12 if 3.13 is not available yet
+  - pandas
+  - ipython
+  - ipykernel
+  - pygraphviz
+  - seaborn
+  - matplotlib
+  - numpy
+  - pip
+  - pip:
+      - sparqldataframe
+      - SPARQLWrapper
